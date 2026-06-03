@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore artifacts folder
+artifacts/
+
 # C extensions
 *.so
 
