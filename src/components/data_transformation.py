@@ -89,9 +89,9 @@ class DataTransformation:
             )
 
             return (
-                train_arr,
-                test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                train_arr, test_arr
+                # , preprocessor_path = data_transformatin.initiate_data_transformation(train_data, test_data)
+
             )
 
         except Exception as e:
